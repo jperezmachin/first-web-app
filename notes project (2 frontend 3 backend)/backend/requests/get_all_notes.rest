@@ -1,8 +1,0 @@
-### Get all notes
-GET http://localhost:3001/api/notes
-
-### Delete a note (example: id=2)
-DELETE http://localhost:3001/api/notes/2
-
-### Get all notes again to confirm deletion
-POST http://localhost:3001/api/notes
