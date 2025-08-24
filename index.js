@@ -111,7 +111,7 @@ app.post('/api/persons', (req, res) => {
     }
 
     persons.push(person)
-    res.status(200).json(persons)
+    res.status(201).json(person)
 })
 
 PORT = process.env.PORT || 3001
